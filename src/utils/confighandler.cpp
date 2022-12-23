@@ -795,7 +795,7 @@ QString ConfigHandler::baseName(QString key) const
 
 float ConfigHandler::trueMarkerOpacity()
 {
-    return float(markerOpacity())/100;
+    return float(markerOpacity()) / 100;
 }
 
 // STATIC MEMBER DEFINITIONS

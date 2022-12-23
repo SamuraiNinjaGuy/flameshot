@@ -722,8 +722,7 @@ void GeneralConf::initMarkerOpacity()
 {
     auto* tobox = new QHBoxLayout();
 
-    int opacity =
-      ConfigHandler().value("markerOpacity").toInt();
+    int opacity = ConfigHandler().value("markerOpacity").toInt();
     m_xywhOpacity = new QSpinBox();
     m_xywhOpacity->setRange(0, 100);
     m_xywhOpacity->setToolTip(
